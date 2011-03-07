@@ -8,6 +8,7 @@ API_KEY = "0123456789abcdef"
 
 if ARGV.length < 1
   STDERR.puts "usage: #{$0} <email> [email] ..."
+  exit! 1
 end
 
 emails = ARGV[0..ARGV.length]
